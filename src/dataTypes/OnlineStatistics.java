@@ -33,7 +33,7 @@ public class OnlineStatistics {
 
     public void reset(){
         sum =0;
-        valuesNum =0;Y
+        valuesNum =0;
         min = Integer.MAX_VALUE;
         max = Integer.MIN_VALUE;
     }
