@@ -11,7 +11,6 @@ public class OnlineStatisticsTest {
         System.out.println(stat.getMin()+", expected 1");
         System.out.println(stat.getMax()+ ", expected 1");
 
-
         stat.addValue(5);
         stat.addValue(0);
         System.out.println(stat.getSum()+", expected 6");
