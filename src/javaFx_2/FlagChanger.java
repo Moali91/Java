@@ -4,8 +4,10 @@ import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
@@ -15,7 +17,9 @@ import javafx.stage.Stage;
 
 
 public class FlagChanger extends Application {
-    Boolean flagIsSet = false;
+    private Boolean showSwiss = false;
+    private Boolean showJapan = false;
+    private Boolean showGer = false;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -25,6 +29,7 @@ public class FlagChanger extends Application {
 
         Text title = new Text("Flags with Layout panes");
         title.setFill(Color.WHITE);
+
         HBox topHbox = new HBox();
         topHbox.getChildren().add(title);
         topHbox.setPadding(new Insets(15,12,15,12));
@@ -37,52 +42,105 @@ public class FlagChanger extends Application {
         Button japanBu = new Button("Japan");
 
 
-        VBox vBox = new VBox();
-        vBox.setPadding(new Insets(15,12,15,12));
-        vBox.setSpacing(8);
-        vBox.getChildren().addAll(swissBu,japanBu);
-
-        borderPane.setLeft(vBox);
 
         StackPane stakePane = new StackPane();
 
-        Rectangle swissFlag1 = new Rectangle(200,200,Color.RED);
-        Rectangle swissFlag2 = new Rectangle(120,36,Color.WHITE);
-        Rectangle swissFlag3 = new Rectangle(36,120,Color.WHITE);
+        Rectangle swissRed = new Rectangle(200,200,Color.RED);
+        Rectangle swissHori= new Rectangle(120,36,Color.WHITE);
+        Rectangle swissVert = new Rectangle(36,120,Color.WHITE);
 
-        Circle japanFlag1 = new Circle(50,Color.RED);
-        Rectangle japanFlag2 = new Rectangle(200,200,Color.WHITE);
+        StackPane swissFlag = new StackPane();
+        swissFlag.getChildren().addAll(swissRed,swissHori,swissVert);
+
+
+        Circle japanCircle = new Circle(50,Color.RED);
+        Rectangle japanRect = new Rectangle(200,200,Color.WHITE);
+
+        StackPane japanFlag = new StackPane();
+        japanFlag.getChildren().addAll(japanRect,japanCircle);
+
+
+        Rectangle gerBlack = new Rectangle(225,50,Color.rgb(0,0,0));
+        Rectangle gerRed = new Rectangle(225,50,Color.rgb(255,0,0));
+        Rectangle gerYellow = new Rectangle(225,50,Color.rgb(255,204,0));
+
+        final StackPane stack = new StackPane();
+        VBox germanFlag = new VBox();
+        germanFlag.getChildren().addAll(gerBlack,gerRed,gerYellow);
+        germanFlag.setAlignment(Pos.CENTER);
+        stack.getChildren().addAll(germanFlag);
+
+        Button gerBu = new Button("Germany");
+
+
+        VBox vBox = new VBox();
+        vBox.setPadding(new Insets(15,12,15,12));
+        vBox.setSpacing(8);
+        vBox.getChildren().addAll(swissBu,japanBu, gerBu);
+
+
+        borderPane.setLeft(vBox);
+        borderPane.setCenter(stakePane);
+
+
+
+        gerBu.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                borderPane.setCenter(stack);
+                showSwiss = false;
+                showJapan = false;
+                if(!showGer){
+                    germanFlag.setVisible(true);
+                    showGer = true;
+                } else {
+                    germanFlag.setVisible(false);
+                    showGer = false;
+                }
+            }
+        });
+
+
 
         japanBu.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                stakePane.getChildren().addAll(japanFlag2,japanFlag1);
-                flagIsSet = true;
+                borderPane.setCenter(japanFlag);
+                showSwiss = false;
+                showGer = false;
+                if(!showJapan){
+                    japanFlag.setVisible(true);
+                    showJapan = true;
+                } else {
+                    japanFlag.setVisible(false);
+                    showJapan = false;
+                }
             }
         });
 
         swissBu.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                if(flagIsSet){
-                }
-                else {
-                    stakePane.getChildren().addAll(swissFlag1, swissFlag2, swissFlag3);
-                    flagIsSet = true;
+                borderPane.setCenter(swissFlag);
+                showJapan = false;
+                showGer = false;
+                if(!showSwiss){
+                    swissFlag.setVisible(true);
+                    showSwiss = true;
+                } else {
+                    swissFlag.setVisible(false);
+                    showSwiss = false;
                 }
             }
-        });
+            });
 
 
-
-
-
-        borderPane.setCenter(stakePane);
 
 
         Scene scene = new Scene(borderPane,500,500);
         primaryStage.setTitle("Flag Changer");
         primaryStage.setScene(scene);
+        primaryStage.getIcons().add(new Image(FlagChanger.class.getResourceAsStream("flag.png")));
         primaryStage.show();
     }
 
