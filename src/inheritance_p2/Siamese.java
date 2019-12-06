@@ -13,8 +13,8 @@ public class Siamese extends Cat {
         System.out.println("Siamese y : "+ y);
         System.out.println("Cat x : "+ super.x);
         System.out.println("Cat y : "+ super.getY());
-        System.out.println("Animal x : "+ ((Animal) this).x);
-        System.out.println("Animal y : "+ ((Animal)this).y);
+        System.out.println("Animal x : "+ ((Animal1) this).x);
+        System.out.println("Animal y : "+ ((Animal1)this).y);
 
 
 
