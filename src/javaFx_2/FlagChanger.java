@@ -64,11 +64,11 @@ public class FlagChanger extends Application {
         Rectangle gerRed = new Rectangle(225,50,Color.rgb(255,0,0));
         Rectangle gerYellow = new Rectangle(225,50,Color.rgb(255,204,0));
 
-        final StackPane stack = new StackPane();
+        final StackPane stackGer = new StackPane();
         VBox germanFlag = new VBox();
         germanFlag.getChildren().addAll(gerBlack,gerRed,gerYellow);
         germanFlag.setAlignment(Pos.CENTER);
-        stack.getChildren().addAll(germanFlag);
+        stackGer.getChildren().addAll(germanFlag);
 
         Button gerBu = new Button("Germany");
 
@@ -87,7 +87,7 @@ public class FlagChanger extends Application {
         gerBu.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                borderPane.setCenter(stack);
+                borderPane.setCenter(stackGer);
                 showSwiss = false;
                 showJapan = false;
                 if(!showGer){

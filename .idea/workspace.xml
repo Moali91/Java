@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="some new exercises">
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p1/Athlete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p1/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p1/Employer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p1/Human.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p1/HumanAthleteTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p1/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p1/PersonTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p2/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p2/AnimalTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p2/Cat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/inheritance_p2/Siamese.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Resturant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/ResturantTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Student.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Interfaces-1 exercises added">
+      <change afterPath="$PROJECT_DIR$/src/javaFx_2/PressForShape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algo-EC/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo-EC/.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algo-EC/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo-EC/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algo-EC/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo-EC/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
@@ -34,7 +16,9 @@
       <change beforePath="$PROJECT_DIR$/../Algo-EC/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo-EC/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algo-EC/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo-EC/.metadata/version.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP1-IJ/dataTypes/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/dataTypes/EmployeeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP1-IJ/javaFx_2/FlagChanger$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/javaFx_2/FlagChanger$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP1-IJ/javaFx_2/FlagChanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP1-IJ/javaFx_2/FlagChanger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaFx_2/FlagChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaFx_2/FlagChanger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP1/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP1/.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP1/.metadata/.plugins/org.eclipse.core.resources/.projects/Exercises/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP1/.metadata/.plugins/org.eclipse.core.resources/.projects/Exercises/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP1/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP1/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
@@ -106,50 +90,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/Customer.java">
+        <entry file="file://$PROJECT_DIR$/src/javaFX/SwissFlag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="340">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding>
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/javaFx_2/FlagChanger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="731">
+              <caret line="76" column="48" lean-forward="true" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/Resturant.java">
+        <entry file="file://$PROJECT_DIR$/src/javaFx_2/PressForShape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="90">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/ResturantTest.java">
+        <entry file="file://$PROJECT_DIR$/src/javaFx_2/flag.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javaFX/HelloWorldBobby.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="170">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javaFX/lion.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javaFX/HelloWorldFX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javaFX/MyName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -163,6 +177,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stackpane</find>
+      <find>germanflag</find>
+    </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -199,29 +219,32 @@
         <option value="$PROJECT_DIR$/src/dataTypes/Employee.java" />
         <option value="$PROJECT_DIR$/src/dataTypes/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/dataTypes/EvenOrOdd.java" />
-        <option value="$PROJECT_DIR$/src/inheritance_p1/Person.java" />
-        <option value="$PROJECT_DIR$/src/inheritance_p2/Cat.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/Animal.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/Cat.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/Dog.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/AnimalMain.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/AnimalTransport.java" />
+        <option value="$PROJECT_DIR$/src/interfaces2/Interfaces_examples_DataSetMeasurerTester.java" />
+        <option value="$PROJECT_DIR$/src/interfaces2/Interfaces_examples_DataSetv2.java" />
+        <option value="$PROJECT_DIR$/src/javaFX/HelloWorldFX.java" />
         <option value="$PROJECT_DIR$/src/inheritance_p2/Animal.java" />
+        <option value="$PROJECT_DIR$/src/inheritance_p2/Cat.java" />
         <option value="$PROJECT_DIR$/src/inheritance_p2/Siamese.java" />
-        <option value="$PROJECT_DIR$/src/inheritance_p2/AnimalTest.java" />
-        <option value="$PROJECT_DIR$/src/dataTypes/OnlineStatisticsTest.java" />
-        <option value="$PROJECT_DIR$/src/dataTypes/OnlineStatistics.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Shape.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Square.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Circle.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Customer.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Student.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/ResturantTest.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Employee.java" />
-        <option value="$PROJECT_DIR$/src/interfaces/Resturant.java" />
+        <option value="$PROJECT_DIR$/src/inheritance_p2/Animal1.java" />
+        <option value="$PROJECT_DIR$/src/javaFX/MyName.java" />
+        <option value="$PROJECT_DIR$/src/javaFX/HelloWorldBobby.java" />
+        <option value="$PROJECT_DIR$/src/javaFX/SwissFlag.java" />
+        <option value="$PROJECT_DIR$/src/javaFx_2/FlagChanger.java" />
+        <option value="$PROJECT_DIR$/src/javaFx_2/PressForShape.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -234,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,13 +273,44 @@
               <item name="OOP1-IJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOP1-IJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="javaFx_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP1-IJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="OOP1-IJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="OOP1-IJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP1-IJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP1-IJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,7 +325,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="D:/adventOfCode2019" />
     <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studium3\Java-Projekte\OOP1-IJ\src\javaFx_2" />
+      <recent name="D:\Studium3\Java-Projekte\OOP1-IJ\src\javaFX" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -286,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ResturantTest">
+  <component name="RunManager" selected="Application.PressForShape">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -305,13 +365,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance_p2.AnimalTest" />
+    <configuration name="FlagChanger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaFx_2.FlagChanger" />
       <module name="OOP1-IJ" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance_p2.*" />
+          <option name="PATTERN" value="javaFx_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,27 +379,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataTypes.EmployeeTest" />
+    <configuration name="HelloWorldBobby" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaFX.HelloWorldBobby" />
       <module name="OOP1-IJ" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataTypes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvenOrOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataTypes.EvenOrOdd" />
-      <module name="OOP1-IJ" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataTypes.*" />
+          <option name="PATTERN" value="javaFX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,13 +409,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnlineStatisticsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataTypes.OnlineStatisticsTest" />
+    <configuration name="MyName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaFX.MyName" />
       <module name="OOP1-IJ" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataTypes.*" />
+          <option name="PATTERN" value="javaFX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,13 +423,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResturantTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.ResturantTest" />
+    <configuration name="PressForShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaFx_2.PressForShape" />
       <module name="OOP1-IJ" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.*" />
+          <option name="PATTERN" value="javaFx_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwissFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaFX.SwissFlag" />
+      <module name="OOP1-IJ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaFX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,11 +490,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ResturantTest" />
-        <item itemvalue="Application.OnlineStatisticsTest" />
-        <item itemvalue="Application.AnimalTest" />
-        <item itemvalue="Application.EmployeeTest" />
-        <item itemvalue="Application.EvenOrOdd" />
+        <item itemvalue="Application.PressForShape" />
+        <item itemvalue="Application.FlagChanger" />
+        <item itemvalue="Application.MyName" />
+        <item itemvalue="Application.SwissFlag" />
+        <item itemvalue="Application.HelloWorldBobby" />
       </list>
     </recent_temporary>
   </component>
@@ -463,9 +523,17 @@
       <workItem from="1569922031530" duration="1881000" />
       <workItem from="1570167283109" duration="4358000" />
       <workItem from="1570174136906" duration="3019000" />
-      <workItem from="1572600286984" duration="2613000" />
-      <workItem from="1572779615817" duration="7991000" />
-      <workItem from="1574155993052" duration="3782000" />
+      <workItem from="1574760258316" duration="907000" />
+      <workItem from="1574952981310" duration="713000" />
+      <workItem from="1575019765896" duration="4289000" />
+      <workItem from="1575306049685" duration="174000" />
+      <workItem from="1575366254972" duration="3824000" />
+      <workItem from="1575549625573" duration="6000" />
+      <workItem from="1575570650788" duration="14673000" />
+      <workItem from="1575641044259" duration="419000" />
+      <workItem from="1575670634279" duration="619000" />
+      <workItem from="1575712415806" duration="434000" />
+      <workItem from="1575923710716" duration="2064000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1570170757923</created>
@@ -474,24 +542,17 @@
       <option name="project" value="LOCAL" />
       <updated>1570170757923</updated>
     </task>
-    <task id="LOCAL-00002" summary="some new exercises">
-      <created>1572789909708</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1572789909708</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50709000" />
+    <option name="totallyTimeSpent" value="69369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.23724696" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.102345414" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -500,7 +561,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19005328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18743229" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -510,12 +571,13 @@
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Terminal" order="16" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="17" weight="0.32936078" />
+      <window_info anchor="bottom" id="Duplicates" order="18" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -574,8 +636,7 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Test" />
-    <MESSAGE value="some new exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="some new exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -607,8 +668,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP1-IJ.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/dataTypes/StringReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classesAndobjects/student/Student.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -655,17 +720,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance_p1/HumanAthleteTest.java">
+    <entry file="file://$PROJECT_DIR$/src/dataTypes/EvenOrOdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/ResturantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance_p1/PersonTest.java">
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Resturant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/AnimalMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#232#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/AnimalTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces2/Interfaces_examples_DataSetv2.java" />
+    <entry file="file://$PROJECT_DIR$/src/interfaces2/Interfaces_examples_Measurer.java" />
+    <entry file="file://$PROJECT_DIR$/src/interfaces2/Interfaces_examples_DataSetMeasurerTester.java" />
+    <entry file="file://$PROJECT_DIR$/src/interfaces2/Interfaces_examples_RectangleMeasurer.java" />
+    <entry file="file://$PROJECT_DIR$/src/inheritance_p2/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -676,159 +850,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance_p1/Athlete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance_p1/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance_p1/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataTypes/EvenOrOdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance_p2/Animal.java">
+    <entry file="file://$PROJECT_DIR$/src/inheritance_p2/AnimalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance_p2/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/inheritance_p2/Animal1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance_p2/Siamese.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance_p2/AnimalTest.java">
+    <entry file="file://$PROJECT_DIR$/OOP1-IJ.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataTypes/OnlineStatisticsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/javaFX/SwissFlag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataTypes/StringReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataTypes/OnlineStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/javaFx_2/flag.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/ResturantTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/Resturant.java">
+    <entry file="file://$PROJECT_DIR$/src/javaFX/HelloWorldBobby.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaFX/lion.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaFX/HelloWorldFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaFX/MyName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaFx_2/FlagChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="76" column="48" lean-forward="true" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaFx_2/PressForShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
