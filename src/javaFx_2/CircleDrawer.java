@@ -45,9 +45,14 @@ public class CircleDrawer extends Application {
 
 
         TextField rgb1 = new TextField();
+        rgb1.setPromptText("0 - 255");
         TextField rgb2 = new TextField();
+        rgb2.setPromptText("0 - 255");
         TextField rgb3 = new TextField();
+        rgb3.setPromptText("0 - 255");
         TextField radius = new TextField();
+        radius.setPromptText("Radius");
+
 
         Button draw = new Button("Draw!");
         Button random = new Button("Random");
