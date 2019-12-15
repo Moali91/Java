@@ -25,7 +25,6 @@ public class BankAccountCLI {
         do {
             System.out.println("Type an opition. (Opitions: balance, get, put, exit)");
             String opition = scan.next();
-
             switch (opition.toLowerCase()) {
                 case "balance":
                     System.out.println("Yout balance is: " + customer1.bankAccount.getBalance());
@@ -69,7 +68,5 @@ public class BankAccountCLI {
         }while (!exit);
 
             scan.close();
-
-
     }
 }
