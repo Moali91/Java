@@ -1,8 +1,11 @@
 package arrayLists;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -27,9 +30,12 @@ public class BankAccountGUI extends Application {
         Label amount = new Label("Amount");
         TextField amountText = new TextField();
         Text text = new Text();
+
+        Button depo = new Button("Deposit");
+
         leftBox.setPadding(new Insets(15,12,15,12));
         leftBox.setSpacing(8);
-        leftBox.getChildren().addAll(balance,initialBalance,amount,amountText);
+        leftBox.getChildren().addAll(balance,initialBalance,amount,amountText,depo);
 
 
         HBox hBox = new HBox();
@@ -37,6 +43,19 @@ public class BankAccountGUI extends Application {
         hBox.setSpacing(8);
         TextArea textArea = new TextArea();
         textArea.setMinSize(50,50);
+        textArea.setDisable(true);
+
+        depo.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                String de = amountText.getText();
+                textArea.setText(de);
+            }
+        });
+
+
+
+
         border.setLeft(leftBox);
 
         hBox.getChildren().add(textArea);
