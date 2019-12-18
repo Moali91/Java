@@ -25,11 +25,15 @@ public class BankAccountGUI extends Application {
 
         VBox leftBox = new VBox();
 
+
+        Label nameLabel = new Label("Name");
+        TextField nameText = new TextField();
+        Label addressLabel = new Label("Adress");
+        TextField addressText = new TextField();
         Label balance = new Label("Initial Balance");
         TextField initialBalance = new TextField();
         Label amount = new Label("Amount");
         TextField amountText = new TextField();
-        Text text = new Text();
 
         Button depo = new Button("Deposit");
 
@@ -48,8 +52,12 @@ public class BankAccountGUI extends Application {
         depo.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
+                Customer customer = new Customer(nameText.getText(),addressText.getText());
+                int balance = Integer.parseInt(initialBalance.getText());
+                BankAccount bankAccount = new BankAccount(balance);
                 String de = amountText.getText();
                 textArea.setText(de);
+
             }
         });
 
