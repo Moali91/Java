@@ -91,10 +91,11 @@ public class Patient extends Person{
 
 
     public boolean expiredVaccinations(){
+        boolean isExpired = false;
         if(vacc.isExpired()){
-            return true;
-        } else
-        return false;
+            isExpired = true;
+        }
+        return isExpired;
     }
 
 

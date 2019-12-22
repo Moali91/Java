@@ -50,7 +50,9 @@ public class Surgery {
     public boolean isPatient(String firstname, String lastname){
         boolean isIn = false;
         for(Patient p : patients){
-                isIn = p.getFirstName().equals(firstname) && p.getLastName().equals(lastname);
+                if(p.getFirstName().equals(firstname) && p.getLastName().equals(lastname)) {
+                    isIn = true;
+                }
         }
         return isIn;
     }

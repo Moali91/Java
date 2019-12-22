@@ -1,6 +1,8 @@
 package surgery;
 
 import org.junit.Assert;
+import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
@@ -8,16 +10,25 @@ import java.time.LocalDate;
 
 class SurgeryTest {
     Surgery surgery = new Surgery("Test Surgery");
-    Patient patient = new Patient("Jim","Johnson", LocalDate.of(2000, 12, 12),"Jack","Johnson","Somestreet","IT");
+
+
+    @BeforeEach
+    public void init() {
+        surgery.addPatient("Jim","Johnson",LocalDate.of(2000, 12, 12),"Jack","Johnson","Somestreet","IT");
+        surgery.addVacc("Jim","Johnson","Tetanus",LocalDate.of(2018, 12, 12),LocalDate.of(2020, 12, 12));
+        surgery.addPatient("Jack","Smith",LocalDate.of(2000, 12, 12),"Anna","Smith","Somestreet","Engineer");
+        surgery.addVacc("Jack","Smith","Measles",LocalDate.of(2018, 12, 12),LocalDate.of(2019, 12, 12));
+        surgery.addPatient("Mohammed","Ali",LocalDate.of(2000,12,12),"Adam","Ali","Somestreet","IT");
+
+    }
 
 
 
     @Test
     void addPatient() {
         surgery.addPatient("Mohammed","Ali",LocalDate.of(2000,12,12),"Adam","Ali","Somestreet","IT");
-        surgery.addPatient("Jack","Smith",LocalDate.of(2000, 12, 12),"Anna","Smith","Somestreet","Engineer");
-
-
+        boolean actual = surgery.isPatient("Mohammed","Ali");
+        Assert.assertEquals(true,actual);
     }
 
     @Test
@@ -43,7 +54,4 @@ class SurgeryTest {
         Assert.assertEquals(true,actual);
     }
 
-    @Test
-    void init() {
-    }
 }

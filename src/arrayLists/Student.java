@@ -21,6 +21,10 @@ public class Student {
         return sum/grades.size();
     }
 
+    public String getName(){
+        return this.name;
+    }
+
 
     public void addGrade(double g){
         grades.add(g);
