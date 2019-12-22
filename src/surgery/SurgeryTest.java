@@ -38,7 +38,10 @@ class SurgeryTest {
 
     @Test
     void addVacc() {
-        surgery.addVacc("Jack","Smith","Measles",LocalDate.of(2018, 12, 12),LocalDate.of(2019, 12, 12));
+        surgery.addVacc("Mohammed","Ali","Measles",LocalDate.of(2018, 12, 12),LocalDate.of(3000, 12, 12));
+        boolean actual = surgery.checkVacc("Mohammed","Ali");
+        Assert.assertEquals(true,actual);
+
 
     }
 
@@ -52,6 +55,9 @@ class SurgeryTest {
     void isPatient() {
         boolean actual = surgery.isPatient("Mohammed","Ali");
         Assert.assertEquals(true,actual);
+        boolean actual2 = surgery.isPatient("Moha","Ali");
+        Assert.assertEquals(false,actual2);
+
     }
 
 }
