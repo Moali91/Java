@@ -18,7 +18,7 @@ import javafx.stage.Stage;
 
 public class BankAccountGUI extends Application {
     @Override
-    public void start(Stage primaryStage) throws Exception {
+      public void start(Stage primaryStage) throws Exception {
 
         BorderPane border = new BorderPane();
         Scene scene = new Scene(border,500,500);

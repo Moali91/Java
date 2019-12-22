@@ -38,13 +38,13 @@ public class Surgery {
     }
 
     public boolean checkVacc(String firstname, String lastname){
-        boolean check = false;
+        boolean exCheck = false;
         for(Patient p : patients){
             if(p.getFirstName().equals(firstname) && p.getLastName().equals(lastname)){
-                    check = p.expiredVaccinations();
+                    exCheck = p.expiredVaccinations();
                 }
             }
-        return check;
+        return exCheck;
     }
 
     public boolean isPatient(String firstname, String lastname){
