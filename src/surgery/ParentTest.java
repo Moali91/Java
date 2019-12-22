@@ -17,8 +17,9 @@ class ParentTest {
 
     @Test
     void setFirstName() {
-        String actual = "Mohammed";
-        Assert.assertEquals("Mohammed",actual);
+        String actual = "Mo";
+        parent1.setFirstName(actual);
+        Assert.assertEquals("Mo",actual);
     }
 
     @Test
@@ -29,8 +30,9 @@ class ParentTest {
 
     @Test
     void setLastName() {
-        String actual = "Ali";
-        Assert.assertEquals("Ali",actual);
+        String actual = "Adam";
+        parent1.setLastName(actual);
+        Assert.assertEquals("Adam",actual);
     }
 
     @Test
@@ -41,8 +43,9 @@ class ParentTest {
 
     @Test
     void setAddress() {
-        String actual = "SomeStreet";
-        Assert.assertEquals("SomeStreet",actual);
+        String actual = "bernstreet";
+        parent1.setAddress(actual);
+        Assert.assertEquals("bernstreet",actual);
     }
 
     @Test
@@ -53,8 +56,9 @@ class ParentTest {
 
     @Test
     void setJob() {
-        String actual = "IT";
-        Assert.assertEquals("IT",actual);
+        String actual = "Informatiker";
+        parent1.setJob(actual);
+        Assert.assertEquals("Informatiker",actual);
     }
 
     @Test
