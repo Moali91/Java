@@ -8,17 +8,20 @@ public class Patient extends Person{
     private LocalDate dateOfBirth;
     private String parentFirstName;
     private String parentLastName;
+    private String parentAddress;
     private String parentJob;
     private Checkup checkup;
     private Vaccination vacc;
 
-    public Patient(String firstName, String lastName, LocalDate dateOfBirth, String parentFirstName, String parentLastName,
+    public Patient(String firstName, String lastName, LocalDate dateOfBirth, String parentFirstName, String parentLastName, String parentAddress,
                    String parentJob){
+        super(firstName,lastName,dateOfBirth,parentFirstName,parentLastName,parentAddress,parentJob);
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
         this.parentFirstName = parentFirstName;
         this.parentLastName = parentLastName;
+        this.parentAddress = parentAddress;
         this.parentJob = parentJob;
 
     }

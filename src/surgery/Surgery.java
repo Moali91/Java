@@ -13,9 +13,9 @@ public class Surgery {
     }
 
 
-    public void addPatient(String firstName, String lastName, LocalDate dateOfBirth, String parentFirstName, String parentLastName,String parentJob)
+    public void addPatient(String firstName, String lastName, LocalDate dateOfBirth, String parentFirstName, String parentLastName,String parentAddress, String parentJob)
     {
-        patients.add(new Patient(firstName,lastName,dateOfBirth,parentFirstName,parentLastName,parentJob));
+        patients.add(new Patient(firstName,lastName,dateOfBirth,parentFirstName,parentLastName,parentAddress,parentJob));
     }
 
     public void addCheckup(String firstname, String lastname,LocalDate date, int height, double weight, double temperature, boolean eyesightOk){
@@ -55,4 +55,12 @@ public class Surgery {
         }
         return isIn;
     }
+
+    public void init() {
+        addPatient("Jim","Johnson",LocalDate.of(2000, 12, 12),"Jack","Johnson","Somestreet","IT");
+        addVacc("Jim","Johnson","Tetanus",LocalDate.of(2018, 12, 12),LocalDate.of(2020, 12, 12));
+        addPatient("Jack","Smith",LocalDate.of(2000, 12, 12),"Anna","Smith","Somestreet","Engineer");
+        addVacc("Jack","Smith","Measles",LocalDate.of(2018, 12, 12),LocalDate.of(2019, 12, 12));
+    }
+
 }

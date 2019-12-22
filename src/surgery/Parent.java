@@ -7,6 +7,7 @@ public class Parent extends Person{
     private String job;
 
     public Parent(String firstName, String lastName, String address, String job){
+        super(firstName,lastName,address,job);
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
