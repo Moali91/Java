@@ -1,5 +1,6 @@
 package surgery;
 
+
 import java.util.ArrayList;
 import java.time.LocalDate;
 
@@ -23,7 +24,6 @@ public class Surgery {
         for(Patient p : patients) {
             if (p.getFirstName().equals(firstname) && p.getLastName().equals(lastname)) {
                 p.addCheckup(checkup);
-                patients.add(p);
             }
         }
     }
@@ -33,7 +33,6 @@ public class Surgery {
         for(Patient p : patients){
             if(p.getFirstName().equals(firstname) && p.getLastName().equals(lastname)){
                 p.addVaccination(vacc);
-                patients.add(p);
             }
         }
     }
@@ -63,4 +62,11 @@ public class Surgery {
         addVacc("Jack","Smith","Measles",LocalDate.of(2018, 12, 12),LocalDate.of(2019, 12, 12));
     }
 
+   /* public void printPatient() {
+        System.out.println("Patients are: ");
+        for (Patient p : patients) {
+            System.out.println(p);
+        }
+    }
+*/
 }
