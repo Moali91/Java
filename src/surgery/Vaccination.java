@@ -13,7 +13,11 @@ public class Vaccination {
         this.expiryDate = expiryDate;
     }
 
+
     public boolean isExpired(){
+        if(this.expiryDate.isAfter(LocalDate.now())){
+            return false;
+        } else
         return true;
     }
 }

@@ -9,7 +9,7 @@ public class Checkup {
     private double temperature;
     private boolean eyesightOk;
 
-    public Checkup(String firstname, String lastname, LocalDate date, int height, double weight, double temperature, boolean eyesightOk) {
+    public Checkup(LocalDate date, int height, double weight, double temperature, boolean eyesightOk) {
         this.date = date;
         this.height = height;
         this.weight = weight;

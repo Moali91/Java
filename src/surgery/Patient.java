@@ -9,9 +9,11 @@ public class Patient extends Person{
     private String parentFirstName;
     private String parentLastName;
     private String parentJob;
+    private Checkup checkup;
+    private Vaccination vacc;
 
     public Patient(String firstName, String lastName, LocalDate dateOfBirth, String parentFirstName, String parentLastName,
-                   String parentJob, String job){
+                   String parentJob){
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
@@ -70,12 +72,26 @@ public class Patient extends Person{
     }
 
 
+
+
+
+
     public void addCheckup(Checkup checkup){
+        this.checkup = checkup;
+    }
+
+
+    public void addVaccination(Vaccination vacc){
+        this.vacc = vacc;
 
     }
 
+
     public boolean expiredVaccinations(){
-        return true;
+        if(vacc.isExpired()){
+            return true;
+        } else
+        return false;
     }
 
 
