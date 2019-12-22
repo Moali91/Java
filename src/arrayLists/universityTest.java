@@ -3,6 +3,7 @@ package arrayLists;
 public class universityTest {
     public static void main(String[] args) {
 
+//small test 
         University uni1 = new University("BFH");
         Student stu1 = new Student("Mo",23);
         Student stu2 = new Student("Mohammed",22);

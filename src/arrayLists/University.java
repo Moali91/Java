@@ -18,6 +18,7 @@ public class University {
 
 
 
+    //check if he is a student
     public boolean isStudent(String name){
         boolean isStu = false;
         for(Student s : students){

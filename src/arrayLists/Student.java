@@ -21,6 +21,7 @@ public class Student {
         return sum/grades.size();
     }
 
+    //i made this methode just to check
     public String getName(){
         return this.name;
     }
