@@ -19,6 +19,14 @@ public class Surgery {
         patients.add(new Patient(firstName,lastName,dateOfBirth,parentFirstName,parentLastName,parentAddress,parentJob));
     }
 
+    public void removePatient(String firstName, String lastName){
+        for(Patient p : patients){
+            if(p.getFirstName().equals(firstName) && p.getLastName().equals(lastName)){
+                patients.remove(p);
+            }
+        }
+    }
+
     public void addCheckup(String firstname, String lastname,LocalDate date, int height, double weight, double temperature, boolean eyesightOk){
         Checkup checkup = new Checkup(date,height,weight,temperature,eyesightOk);
         for(Patient p : patients) {
