@@ -18,6 +18,8 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+import java.time.LocalDate;
+
 public class SurgeryGUI extends Application {
 
     @Override
@@ -26,7 +28,7 @@ public class SurgeryGUI extends Application {
         surg.init();
 
         BorderPane border = new BorderPane();
-        Scene scene = new Scene(border,500,500);
+        Scene scene = new Scene(border,600,600);
 
         VBox leftBox = new VBox();
 
@@ -35,12 +37,28 @@ public class SurgeryGUI extends Application {
         TextField nameText = new TextField();
         Label lastnameLabel = new Label("Lastname");
         TextField lastnameText = new TextField();
+        Label dateOfBirthlabel = new Label("Date of birth");
+        TextField dateOfBirthtext = new TextField();
+        Label parentFirstNamelabel = new Label("Parent firstname");
+        TextField parentFirstNameText = new TextField();
+        Label parentLastNameLabel = new Label("Parent Lastname");
+        TextField parentLastNameText = new TextField();
+        Label parentAdresslabel = new Label("Parent Address");
+        TextField parentAddress = new TextField();
+        Label parentJob= new Label("Parent Job");
+        TextField parentJobText = new TextField();
+
+
 
         Button checkButton = new Button("Check Vaccinations!");
+        Button addPatientButton = new Button("Add Patient!");
+
+
 
         leftBox.setPadding(new Insets(16,12,15,12));
         leftBox.setSpacing(7);
-        leftBox.getChildren().addAll(nameLabel,nameText,lastnameLabel,lastnameText,checkButton);
+        leftBox.getChildren().addAll(nameLabel,nameText,lastnameLabel,lastnameText,dateOfBirthlabel,dateOfBirthtext,parentFirstNamelabel,parentFirstNameText,parentLastNameLabel,parentLastNameText,
+                parentAdresslabel,parentAddress,parentJob,parentJobText,checkButton,addPatientButton);
 
 
         Text title = new Text("Welcome to the Surgery");
@@ -52,6 +70,7 @@ public class SurgeryGUI extends Application {
 
         border.setLeft(leftBox);
         border.setTop(topBox);
+
 
 
         checkButton.setOnAction(new EventHandler<ActionEvent>() {
@@ -73,10 +92,17 @@ public class SurgeryGUI extends Application {
             }
         });
 
+        addPatientButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                surg.addPatient(nameText.getText(),lastnameText.getText(), LocalDate.parse(dateOfBirthtext.getText()),parentFirstNameText.getText(),parentLastNameText.getText(),parentAddress.getText(),parentJob.getText());
+            }
+        });
+
+
         primaryStage.setScene(scene);
         primaryStage.setTitle("Surgery");
         primaryStage.show();
-
     }
 
     public static void main(String[] args) {

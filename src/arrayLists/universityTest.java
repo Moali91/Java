@@ -20,6 +20,11 @@ public class universityTest {
         stu1.printGrades();
         System.out.println("your average is "+stu1.getAvg());
         System.out.println(uni1.isStudent("Moha"));
+        uni1.printStudents();
+        uni1.removeStudent("Mo");
+        System.out.println("--------------------");
+        uni1.printStudents();
+
 
 
     }

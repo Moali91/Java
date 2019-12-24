@@ -29,4 +29,19 @@ public class University {
         return isStu;
     }
 
+    public void removeStudent(String name){
+        for(Student student : students){
+            if(student.getName().equals(name)){
+                students.remove(student);
+            }
+        }
+    }
+
+    public void printStudents(){
+        for(Student s : students){
+            System.out.println(s.getName());
+        }
+
+    }
+
 }

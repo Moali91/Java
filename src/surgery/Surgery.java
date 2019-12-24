@@ -21,8 +21,10 @@ public class Surgery {
 
     public void removePatient(String firstName, String lastName){
         for(Patient p : patients){
-            if(p.getFirstName().equals(firstName) && p.getLastName().equals(lastName)){
+            if(p.getFirstName().equals(firstName) && p.getLastName().equals(lastName)) {
                 patients.remove(p);
+            } else{
+                return;
             }
         }
     }
@@ -72,11 +74,10 @@ public class Surgery {
         addVacc("Jack","Smith","Measles",LocalDate.of(2018, 12, 12),LocalDate.of(2019, 12, 12));
     }
 
-   /* public void printPatient() {
+    public void printPatient() {
         System.out.println("Patients are: ");
         for (Patient p : patients) {
             System.out.println(p);
         }
     }
-*/
 }

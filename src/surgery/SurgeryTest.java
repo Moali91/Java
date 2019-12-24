@@ -26,9 +26,17 @@ class SurgeryTest {
 
     @Test
     void addPatient() {
-        surgery.addPatient("Mohammed","Ali",LocalDate.of(2000,12,12),"Adam","Ali","Somestreet","IT");
-        boolean actual = surgery.isPatient("Mohammed","Ali");
+        surgery.addPatient("Mo","Ali",LocalDate.of(2000,12,12),"Adam","Ali","Somestreet","IT");
+        boolean actual = surgery.isPatient("Mo","Ali");
         Assert.assertEquals(true,actual);
+    }
+
+    @Test
+    void removePatient() {
+        surgery.removePatient("Mohammed","Ali");
+        boolean actual = surgery.isPatient("Mohammed","Ali");
+        Assert.assertEquals(false,actual);
+
     }
 
     @Test
