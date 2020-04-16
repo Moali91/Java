@@ -1,3 +1,4 @@
-## Java - OOP1
+## Java - OOP1 & OOP2
+# and many other exercises
 Here i will be adding the school exercises
-HS2019/2020
+2019/2020
